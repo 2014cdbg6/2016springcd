@@ -11,9 +11,18 @@
 <vnodes>
 <v t="leo.20160303094224.2"><vh>w2.py</vh></v>
 <v t="leo.20160303095549.1"><vh>@edit index.html</vh></v>
+<v t="leo.20160303095950.1" a="E"><vh>w2</vh>
+<v t="leo.20160303100004.1" a="E"><vh>@path w1</vh>
+<v t="leo.20160303100416.1"><vh>w1.py</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="leo.20160303094224.2">for i in range(5):
     g.es("hello")</t>
+<t tx="leo.20160303095950.1"></t>
+<t tx="leo.20160303100004.1"></t>
+<t tx="leo.20160303100416.1">#g global object echo string
+g.es("hello")</t>
 </tnodes>
 </leo_file>
