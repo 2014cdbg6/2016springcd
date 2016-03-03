@@ -16,7 +16,6 @@
 <v t="leo.20160303100004.1" a="E"><vh>@path w1</vh>
 <v t="leo.20160303100416.1"><vh>@edit w1.py</vh></v>
 </v>
-<v t="leo.20160303101759.1"><vh>@path w2</vh></v>
 <v t="leo.20160303105429.1" a="E"><vh>2b</vh>
 <v t="leo.20160303105429.2"><vh>@edit 2016_cd_2b_1.txt</vh></v>
 <v t="leo.20160303105429.3"><vh>@edit 2016_cd_2b_2.txt</vh></v>
@@ -27,6 +26,7 @@
 <v t="leo.20160303105429.8"><vh>2b 分組執行結果</vh></v>
 <v t="leo.20160303105429.9"><vh>@edit 2b_2016spring.html</vh></v>
 <v t="leo.20160303105429.10"><vh>列出依學號排序的組的座位表</vh></v>
+<v t="leo.20160303111418.1"><vh>newHeadline</vh></v>
 </v>
 </v>
 <v t="leo.20160303110039.1"><vh>ethercalc</vh></v>
@@ -36,7 +36,6 @@
     g.es("hello")</t>
 <t tx="leo.20160303095950.1"></t>
 <t tx="leo.20160303100004.1"></t>
-<t tx="leo.20160303101759.1"></t>
 <t tx="leo.20160303105429.1"></t>
 <t tx="leo.20160303105429.10">('40123126', (0, 0))
 ('40123129', (1, 3))
@@ -588,5 +587,16 @@ g.es("&lt;/table&gt;")
 &lt;/table&gt;
 </t>
 <t tx="leo.20160303110039.1">http://ethercalc-40123214.rhcloud.com/evbr2zq18c57</t>
+<t tx="leo.20160303111418.1">@language python
+result = []
+with open("2016_cd_2b_3.txt", 'r') as f:
+    content = f.readlines()
+    #g.es(content)
+    #g.es(len(content))
+    # 逐 element 處理
+    for i in range(len(content)):
+        for line in content[i].splitlines():
+            #g.es(content[i].splitlines())
+            result.append(list(line.split(",")))</t>
 </tnodes>
 </leo_file>
