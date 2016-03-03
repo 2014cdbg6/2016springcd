@@ -29,6 +29,7 @@
 <v t="leo.20160303105429.10"><vh>列出依學號排序的組的座位表</vh></v>
 </v>
 </v>
+<v t="leo.20160303110039.1"><vh>ethercalc</vh></v>
 </vnodes>
 <tnodes>
 <t tx="leo.20160303094224.2">for i in range(5):
@@ -586,5 +587,6 @@ g.es("&lt;/table&gt;")
 &lt;/tr&gt;
 &lt;/table&gt;
 </t>
+<t tx="leo.20160303110039.1">http://ethercalc-40123214.rhcloud.com/evbr2zq18c57</t>
 </tnodes>
 </leo_file>
